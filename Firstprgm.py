@@ -7,29 +7,31 @@ while count <= 6:
     print(count)
     count += 1
 # If else statement
-age = 16
+age = 25
 
-if age >= 18:
-    print("Eligible to vote.")
+if age >= 30:
+    print("He/She is a minor.")
 else:
-    print("Eligible not to vote.")
+    print("He/She is a major.")
 
 #shorthand ifelse statement
 marks = 45
-student = "pass" if marks >=40 else "fail"
+student = "pass" if marks ==40 else "fail"
 print(f"Result: {student}")
 
 #elif statement
 
-year = 1997
+year = 2024
 if year <= 1980:
     print("Generation X.")
 elif year <=1996:
     print("Millenial.")
 elif year <= 2012:
     print("Gen Z.")
-else:
+elif year <= 2024:
     print("Gen Alpha.")
+else:
+    print("Gen Beta")
 
 # nested if statement
 
