@@ -6,7 +6,7 @@ while count <= 6:
         break
     print(count)
     count += 1
-# If else statement
+# Ifelse statement
 age = 25
 
 if age >= 30:
