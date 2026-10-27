@@ -1,3 +1,6 @@
+
+
+
 # While concepts
 
 count = 0
@@ -34,7 +37,8 @@ else:
     print("Gen Beta")
 
 # nested if statement
-
+print("Age calculator")
+print("-------------------------------------------")
 age = 60
 is_policy = True
 
